@@ -1,0 +1,107 @@
+*{
+    font-family: "Franklin Gothic Book";
+}
+body{
+    margin:0;
+    height:100vh;
+    overflow:hidden;
+}
+#navigation{
+    height:10%;
+    display:flex;
+    flex-direction: row;
+    background-color: darkslategrey;
+    align-items: center;
+}
+#nav-left h1{
+    font-family: "Calibri Light";
+    font-size: 30px;
+    opacity:80%;
+    color:whitesmoke;
+}
+#nav-left, #nav-right{
+    display:flex;
+    width:50%;
+    text-align:center;
+    justify-content: center;
+    align-content: center;
+}
+#nav-right ul li a{
+    text-decoration: none;
+    color:white;
+}
+#nav-right ul{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+}
+#nav-right ul li{
+    margin:10px;
+}
+#main{
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    color:white;
+    background-size: 100%;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    height:85%;
+}
+#main-left, #main-right{
+    width:35%;
+    height:60vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#main-right{
+}
+#main-right p{
+    font-size:16px;
+    width:60%;
+    background-color: rgb(15,15,15, 0.1);
+    padding:25px;
+    border-style:solid;
+    border-radius:15px;
+    border-color:rgb(250, 250, 250, 0.1);
+    text-align: justify;
+}
+#main-left img{
+    height:80%;
+    border-radius:30px;
+    border-style:solid;
+    border-color:rgb(0,0,0,0)
+}
+footer{
+    height:5%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: darkslategrey;
+}
+#footer-left h1{
+    font-family: "Calibri Light";
+    font-size: 19px;
+    opacity:80%;
+    color:whitesmoke;
+}
+#footer-left, #footer-right{
+    display:flex;
+    width:50%;
+    text-align:center;
+    justify-content: center;
+    align-content: center;
+}
+#footer-right ul li a{
+    text-decoration: none;
+    color:white;
+}
+#footer-right ul{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+}
+#footer-right ul li{
+    margin:10px;
+}
